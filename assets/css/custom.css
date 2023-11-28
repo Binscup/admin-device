@@ -1,22 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mirza:wght@500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-/* .table {
-  width: 1500px;
-  height: 558px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #f3f3f3;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-.table-header {
-  width: 1500px;
-  height: 76px;
-  flex-shrink: 0;
-  border-radius: 10px 10px 0px 0px;
-  border: 0px solid #000;
-  background: #fff;
-} */
-
 .card {
   width: 328px;
   height: 207px;
@@ -55,4 +38,22 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+.dataCard {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30rem;
+
+}
+.cardData {
+  width: 518px;
+  height: 328px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.cardData img{
+  margin-left: 13rem;
+  margin-top: 40px;
 }
