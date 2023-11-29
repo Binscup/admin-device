@@ -54,6 +54,24 @@
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
 }
 .cardData img{
-  margin-left: 13rem;
   margin-top: 40px;
+}
+
+.button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #14274c;
+  padding: 10px 12rem;
+  font-family: Poppins;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.button{
+  margin-top: 50px;
+  text-align: center;
+}
+.button a:hover{
+  background-color: rgba(255, 255, 255, 0.404);
+  color: #14274c;
 }
